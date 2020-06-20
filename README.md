@@ -37,26 +37,29 @@ The response will contain data about
 
 E.g.:
 ```json
-{'contests': {
-    'olc_plus': {
-        'classic': {
-            'distance': 22071.043042087873,
-            'duration': 5732,
-            'score': 22.071043042087872,
-            'speed': 3.850495994781555,
-            'turnpoints': [
-                    {'location': {
-                            'latitude': 45.82480000001414,
-                            'longitude': 11.774750000003634
+{
+    "contests": {
+        "olc_plus": {
+            "classic": {
+                "distance": 22071.043042087873,
+                "duration": 5732,
+                "score": 22.071043042087872,
+                "speed": 3.850495994781555,
+                "turnpoints": [
+                        {"location": {
+                                "latitude": 45.82480000001414,
+                                "longitude": 11.774750000003634
+                            },
+                            "time": 37117
                         },
-                        'time': 37117
-                    },
-                    ...
-                ]
+                        { ... }
+                    ]
+                }
             }
-        }
-    },
-    ...
+        },
+    "phases": { ... },
+    "performance": { ... },
+    "wind": { ... }
 }
 ```
 
